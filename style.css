@@ -1,0 +1,73 @@
+/*universal selector start*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1400px;
+    margin: 0px auto;
+    background-color: rgb(255, 214, 173);
+    display: flex;
+    flex-wrap: wrap;
+}
+/*universal selector end*/
+
+/*button START*/
+.add_note{
+    background-color: rgb(159, 66, 8);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    position: fixed;
+    top: 0.1rem;
+    right: 1.9rem;
+}
+/*button END*/
+
+/*notes START*/
+.notes{
+    margin: 30px;
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    box-shadow : 0 0 70px rgba(0, 0, 0, 0.7);
+}
+.notes .tools{
+    background-color: green; 
+    padding: 0.7rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.notes .tglcolor{
+    background-color: rgb(139, 6, 6); 
+} 
+.notes .tools button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.notes .main{
+    width: 100%;
+    height: 309px;
+    padding-left: 2rem ;
+    background-color: rgba(208, 208, 208, 0.7);
+}
+.notes textarea{
+    width: 100%;
+    height: 308px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(31, 120, 37, 0.7);
+}
+.notes .hidden{
+    display: none;
+}
+/*notes END*/
